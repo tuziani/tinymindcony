@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 import { getPublicBlogPosts } from '@/lib/publicData'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = 'https://tinymind.me'
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://tinymind.liyanni1021.workers.dev'
   
   // Static pages
   const staticPages: MetadataRoute.Sitemap = [
@@ -20,7 +20,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   try {
     // This is a simplified approach - in production you might want to maintain a list of active users
     // For now, we'll include some known users or implement a discovery mechanism
-    const knownUsers = ['mazzzystar'] // You can expand this list or implement user discovery
+    const knownUsers = ['tuziani'] // You can expand this list or implement user discovery
     
     for (const username of knownUsers) {
       try {

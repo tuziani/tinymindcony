@@ -11,20 +11,10 @@
   "observability": {
     "enabled": true
   },
-  "routes": [
-    {
-      "pattern": "tinymind.me",
-      "custom_domain": true
-    },
-    {
-      "pattern": "www.tinymind.me",
-      "custom_domain": true
-    }
-  ],
   "vars": {
-    "ALLOWED_ORIGIN": "https://tinymind.me",
-    "NEXTAUTH_URL": "https://tinymind.me",
-    "NEXT_PUBLIC_BASE_URL": "https://tinymind.me"
+    "ALLOWED_ORIGIN": "https://tinymind.liyanni1021.workers.dev",
+    "NEXTAUTH_URL": "https://tinymind.liyanni1021.workers.dev",
+    "NEXT_PUBLIC_BASE_URL": "https://tinymind.liyanni1021.workers.dev"
   },
   "secrets": {
     "required": [
