@@ -83,3 +83,7 @@ Report issues or suggestions: [New Issue](https://github.com/mazzzystar/tinymind
 ## LICENSE
 
 MIT License
+
+## 项目状态
+
+现状、进行中的分支与下一步见 [docs/STATUS.md](docs/STATUS.md)（2026-09-26 整理）。
