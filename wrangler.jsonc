@@ -3,6 +3,9 @@
   "name": "tinymind",
   "main": ".open-next/worker.js",
   "compatibility_date": "2026-06-19",
+  // 版本预览网址(<版本前缀>-<名字>.<子域>.workers.dev)关掉:旧版本不该能按网址取回。
+  // 账号侧 09-28 已用 API 关掉,写进配置是防下次 wrangler deploy 又把它打开。
+  "preview_urls": false,
   "compatibility_flags": ["nodejs_compat"],
   "assets": {
     "directory": ".open-next/assets",
